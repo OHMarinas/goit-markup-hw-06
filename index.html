@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webstudio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">   
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+    <!--Header Section-->
+    <header class="header">
+        <div class="container main-header-container">
+
+            <!-- Navigation to other pages -->
+            <nav class="main-header-nav">
+                <a href="/goit-markup-hw-05/" class="main-header-web"><span class="main-header-span-web">WEB</span><span
+                                    class="main-header-span-studio">STUDIO</span></a>
+                <ul class="main-header-nav-list">
+                    <li class="main-header-nav-item"><a href="index.html" class="main-header-nav-link active">Studio</a></li>
+                    <li class="main-header-nav-item"><a href="portfolio.html" class="main-header-nav-link">Portfolio</a></li>
+                    <li class="main-header-nav-item"><a href="Contacts" class="main-header-nav-link">Contacts</a></li>
+                </ul>
+            </nav>
+        
+            <address class="main-header-address">
+                <ul class="main-header-address-list">
+                    <li class="main-header-address-item"><a href="mailto:info@devstudio.com" class="main-header-address-link">info@devstudio.com</a></li>
+                    <li class="main-header-address-item"><a href="tel:+110001111111" class="main-header-address-link">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+        </div>
+    </header>
+
+    <!--Main Section-->
+    <main class="main">
+
+        <!--Studio Main-->
+        <section class="section studio-main">
+            <div class="studio-main-main">   
+                <div class="container studio-main-container" >               
+                    <h1 class="studio-main-title">Effective Solution<br>for Your Business</h1>
+                    <button type="button" class="studio-button" data-modal-open>Order Service</button>
+                </div>
+            </div>    
+        </section>
+        
+        <!--Feautures Section-->
+        <section class="section features">
+
+            <div class="container features-container">
+                <h2 hidden>Feature</h2>
+                <ul class="features-list">
+                    <li class="features-item">
+                        <div class="features-item-icon-box">
+                            <a href="/goit-markup-hw-04/" class="features-icon-link">
+                                <svg class="sgv features-icon" width="64px" height="64px">
+                                    <use href="images/icons.svg#icon-antenna"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <h3 class="features-item-heading">Strategy</h3>
+                        <p class="features-item-description">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+                    </li>
+                
+                    <li class="features-item">
+                        <div class="features-item-icon-box">
+                            <a href="/goit-markup-hw-04/" class="features-icon-link">
+                                <svg class="sgv features-icon" width="64px" height="64px" >
+                                    <use href="images/icons.svg#icon-clock"></use>
+                                </svg>
+                            </a>
+                        </div>                                       
+                        <h3 class="features-item-heading">Punctuality</h3>
+                        <p class="features-item-description">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+                    </li class="features-item">
+
+                    <li class="features-item">
+                        <div class="features-item-icon-box">
+                            <a href="/goit-markup-hw-04/" class="features-icon-link">
+                                <svg class="sgv features-icon" width="64px" height="64px">
+                                    <use href="images/icons.svg#icon-diagram"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <h3 class="features-item-heading">Diligence</h3>
+                        <p class="features-item-description">Research and confirm brands that present the strongest digital growth oppurtunities and minimize risk.</p>
+                   </li>
+
+                    <li class="features-item">
+                        <div class="features-item-icon-box">
+                            <a href="/goit-markup-hw-04/" class="features-icon-link">
+                                <svg class="sgv features-icon" width="64px" height="64px">
+                                    <use href="images/icons.svg#icon-astronaut"></use>
+                                </svg>
+                            </a>
+                        </div>
+                        <h3 class="features-item-heading">Technologies</h3>
+                        <p class="features-item-description">Design practice focused on digital experiences. We bring forth a deep passion for problem solving.</p>
+                    </li>
+                    </ul>     
+            </div>
+        </section>
+
+        <!--Services Section What are we doing--> 
+        <section class="section services">
+            <div class="container services-container">
+                <h2 class="services-heading">What are we doing</h2>
+                <ul class="services-list">
+                    <li class="services-item">
+                        <img class="services-item-img" src="images/img1.jpg" alt="Computer Screen showing graphical presentations" width="360" >
+                    </li>
+
+                    <li class="services-item">
+                        <img class="services-item-img" src="images/img2.jpg" alt="Different mobile phones with several applications installed" width="360" >
+                    </li>
+
+                    <li class="services-item">
+                        <img class="services-item-img" src="images/img3.jpg" alt="A computer and a person showing hands while holding a phone" width="360" >
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <!--Team Section-->
+        <section class="section team">
+            <div class="container team-container">
+                <h2 class="team-heading">Our Team</h2>
+                <ul class="team-list">
+                    <li class="team-item">
+                        <img class="team-item-img" src="images/img4.jpg" alt="A photo of Mark Guerrero" width="264" >
+                        <div class="team-item-biography">
+                            <h3 class="team-item-name">Mark Guerrero</h3>
+                            <p class="team-item-role">Product Designer</p>
+                            <ul class="team-icon-list">
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="team-item">
+                        <img class="team-item-img" src="images/img5.jpg" alt="A photo of Tom Ford" width="264" >
+                        <div class="team-item-biography">
+                            <h3 class="team-item-name">Tom Ford</h3>
+                            <p class="team-item-role">Frontend Developer</p>
+                            <ul class="team-icon-list">
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="team-item">
+                        <img class="team-item-img" src="images/img6.jpg" alt="A photo of Camila Garcia" width="264" >
+                        <div class="team-item-biography">
+                            <h3 class="team-item-name">Camila Garcia</h3>
+                            <p class="team-item-role">Marketing</p>
+                            <ul class="team-icon-list">
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="team-item">
+                        <img class="team-item-img" src="images/img7.jpg" alt="A photo of Daniel Wilsom" width="264" >
+                        <div class="team-item-biography">
+                            <h3 class="team-item-name">Daniel Wilson</h3>
+                            <p class="team-item-role">UI Designer</p>
+                            <ul class="team-icon-list">
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-instagram"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="team-icon-item">
+                                    <a href="/goit-markup-hw-05/" class="team-icon-link">
+                                        <svg class="svg team-icon" width="24px" height="24px">
+                                            <use href="images/icons.svg#icon-linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--Customer Section-->
+        <section class="customer section">
+            <div class="container customer-heading-container">
+                <h2 class="customer-heading">Customer</h2>
+                <ul class="customer-list">
+                    <li class="customer-item">
+                        <a href="/goit-markup-hw-05/" class="customer-icon-link">
+                            <svg class="svg customer-icon" width="104px" height="56px">
+                                <use href="images/icons.svg#icon-yacologo"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customer-item">
+                        <a href="/goit-markup-hw-05/" class="customer-icon-link">
+                            <svg class="svg customer-icon" width="104px" height="56px">
+                                <use href="images/icons.svg#icon-comtaglogo"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customer-item">
+                        <a href="/goit-markup-hw-05/" class="customer-icon-link">
+                            <svg class="svg customer-icon" width="104px" height="56px">
+                                <use href="images/icons.svg#icon-companylogo"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customer-item">
+                        <a href="/goit-markup-hw-05/" class="customer-icon-link">
+                            <svg class="svg customer-icon" width="104px" height="56px">
+                                <use href="images/icons.svg#icon-fosterlogo"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customer-item">
+                        <a href="/goit-markup-hw-05/" class="customer-icon-link">
+                            <svg class="svg customer-icon" width="104px" height="56px">
+                                <use href="images/icons.svg#icon-brandlogo"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="customer-item">
+                        <a href="/goit-markup-hw-05/" class="customer-icon-link">
+                            <svg class="svg customer-icon" width="104px" height="56px">
+                                <use href="images/icons.svg#icon-taglinelogo"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+
+        </section>
+    </main>
+
+    <!--Footer Section-->
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <div class="main-footer-webstudio">
+                <a href="/goit-markup-hw-05/" class="main-footer-web"><span class="main-footer-span-web">WEB</span><span
+                    class="main-footer-span-studio">STUDIO</span></a>
+                <p class="main-footer-paragraph">Increase the flow of customers and sales for your business with digital marketing &
+                growth solutions.</p>
+            </div>
+            <div class="main-footer-socialmedia">
+                <h4 class="socialmedia">Social media</h4>
+                    <ul class="socialmedia-icon-list">
+                        <li class="socialmedia-icon-item">
+                            <a href="/goit-markup-hw-05/" class="socialmedia-icon-link">
+                                <svg class="svg socialmedia-icon" width="24px" height="24px">
+                                    <use href="images/icons.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
+                         </li>
+                        <li class="socialmedia-icon-item">
+                            <a href="/goit-markup-hw-05/" class="socialmedia-icon-link">
+                                <svg class="svg socialmedia-icon" width="24px" height="24px">
+                                    <use href="images/icons.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socialmedia-icon-item">
+                            <a href="/goit-markup-hw-05/" class="socialmedia-icon-link">
+                                <svg class="svg socialmedia-icon" width="24px" height="24px">
+                                    <use href="images/icons.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="socialmedia-icon-item">
+                            <a href="/goit-markup-hw-05/" class="socialmedia-icon-link">
+                                <svg class="svg socialmedia-icon" width="24px" height="24px">
+                                    <use href="images/icons.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                         </li>
+                    </ul>                 
+            </div>
+
+        </div>
+
+        <div class="modal is-hidden" data-modal>
+            <div class="modal-content">
+                <button class="modal-close" data-modal-close>
+                    <svg class="svg modal-close-icon" width="8px" height="8px">
+                        <use href="images/icons.svg#icon-exitmark"></use>
+                    </svg> 
+                </button>
+            </div>
+
+        </div>
+        
+    </footer>
+    <script src="./js/modal.js"></script>
+</body>
+</html>
+
